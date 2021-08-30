@@ -1,0 +1,26 @@
+{
+   "name": "joes-bot",
+   "version": "1.0.0",
+   "main": "out/index.js",
+   "author": "kira0x1 <kira.eva@protonmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "start": "node .",
+      "dev": "ts-node-dev --respawn --pretty --transpile-only .",
+      "clean": "rimraf out"
+   },
+   "dependencies": {
+      "@types/axios": "^0.14.0",
+      "axios": "^0.21.1",
+      "chalk": "^4.1.2",
+      "discord.js": "^12.5.3",
+      "request": "^2.88.2",
+      "tslib": "^2.3.1"
+   },
+   "devDependencies": {
+      "@types/node": "^16.7.6",
+      "rimraf": "^3.0.2",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.4.2"
+   }
+}
